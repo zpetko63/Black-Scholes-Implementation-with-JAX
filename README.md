@@ -1,4 +1,4 @@
-# Live Black-Scholes-Implementation-with-JAX**
+# Live Black-Scholes Implementation
 3/13/2025
 
 ---
