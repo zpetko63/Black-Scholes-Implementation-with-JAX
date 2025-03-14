@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project implements a **live Black-Scholes pricing model** using **JAX**, designed to price European-style call options in real-time using market data from Yahoo Finance. The model's performance is compared to an existing Black-Scholes implementation to evaluate its accuracy.
+This project implements a live Black-Scholes pricing model using python, designed to price European-style call options in real-time using market data from Yahoo Finance. The model's performance is compared to an existing Black-Scholes implementation to evaluate its accuracy.
 
 ---
 
