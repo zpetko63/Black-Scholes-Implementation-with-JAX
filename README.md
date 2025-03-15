@@ -1,5 +1,4 @@
 # Live Black-Scholes Implementation
-3/13/2025
 
 ---
 
