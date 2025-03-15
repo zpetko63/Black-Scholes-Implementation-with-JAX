@@ -23,7 +23,8 @@ This project prepares me for a future career in quantitative finance, where I ho
 
 1. [Introduction](#1-introduction)  
 2. [Data Collection](#2-data-collection)  
-3. [Black-Scholes Model](#3-black-scholes-model)  
+3. [Black-Scholes Model](#3-black-scholes-model)
+4. [Implied Volatility Calculation Using Newton Method](#4Implied-Volatility-Calculation-Using-Newton-Method)  
 
 ---
 
@@ -44,6 +45,11 @@ Data collection is crucial for ensuring the model operates with accurate and up-
 ## 3. Black-Scholes Model
 
 This section describes the mathematical formulas behind the Black-Scholes model and details its implementation in Python using JAX. The Black-Scholes model formulas for call and put options are presented here. The formulas calculate the option price using factors like stock price, strike price, volatility, time to expiration, risk-free rate, and dividend yield. This section serves as a theoretical foundation, explaining the core equations driving the pricing model. After implementing this model in python, it was compared to existing code from the BlackScholes library already existing in python. Performance was very similar, as it should since it is effectivly the same model. NOTE: Although the Black-Scholes model was created to price European style options, in this case we are using it with data from American style options. This is only because of data aquisition, I found the code pulling stock data from yahoo finance much more useful to build off of for future project so I decided to use this American option data but assume that it is a European style option. Since the goal of this project was to create my own Black-Scholes model and just compare it to an existing model, this note does not affect the model since both models used the same input. Therefore, this model does not intend to be (and would perform poorly) as any kind of trading tool, it was only made so I could develop my skills and familiarise myself more with the Black-Scholes model.
+
+---
+
+## 4. Implied Volatility Calculation Using Newton Method
+In the Implied Volatility (IV) calculation section, we use the Newton-Raphson method to estimate the implied volatility for each option based on its market price. The method iteratively refines an initial guess for volatility by minimizing the difference between the theoretical price (calculated using the Black-Scholes model) and the actual market price of the option. The process continues until the difference between the theoretical and market prices is sufficiently small, indicating convergence. This section demonstrates how to compute IV for individual options and compare the calculated values with the market's implied volatility.
 
 ---
 
