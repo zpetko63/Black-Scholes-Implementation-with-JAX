@@ -23,7 +23,7 @@ This project prepares me for a future career in quantitative finance, where I ho
 1. [Introduction](#1-introduction)  
 2. [Data Collection](#2-data-collection)  
 3. [Black-Scholes Model](#3-black-scholes-model)
-4. [Implied Volatility Calculation Using Newton Method](#4Implied-Volatility-Calculation-Using-Newton-Method)  
+4. [Implied Volatility Calculation Using Newton Method](#4-Implied-Volatility-Calculation-Using-Newton-Method)  
 
 ---
 
